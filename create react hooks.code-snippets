@@ -1,0 +1,19 @@
+{
+
+	"Create useState react hook default string": {
+		"scope": "javascriptreact,typescriptreact",
+		"prefix": "uss",
+		"body": [
+			"const [${TM_SELECTED_TEXT}, set${TM_SELECTED_TEXT/(.*)/${1:/pascalcase}/}] = useState('$1')",
+		],
+		"description": "Create useState react hook default string"
+	},
+	"Create useState react hook default number": {
+		"scope": "javascriptreact,typescriptreact",
+		"prefix": "usn",
+		"body": [
+			"const [${TM_SELECTED_TEXT}, set${TM_SELECTED_TEXT/(.*)/${1:/pascalcase}/}] = useState(${1:0})",
+		],
+		"description": "Create useState react hook default number"
+	}
+}
