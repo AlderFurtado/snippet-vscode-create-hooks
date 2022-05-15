@@ -1,0 +1,1 @@
+# snippet-vscode-create-hooks
