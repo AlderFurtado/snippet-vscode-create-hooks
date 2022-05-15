@@ -15,5 +15,21 @@
 			"const [${TM_SELECTED_TEXT}, set${TM_SELECTED_TEXT/(.*)/${1:/pascalcase}/}] = useState(${1:0})",
 		],
 		"description": "Create useState react hook default number"
-	}
+	},
+	"Create useState react hook default boolean": {
+		"scope": "javascriptreact,typescriptreact",
+		"prefix": "usb",
+		"body": [
+			"const [${TM_SELECTED_TEXT}, set${TM_SELECTED_TEXT/(.*)/${1:/pascalcase}/}] = useState(${1:false})",
+		],
+		"description": "Create useState react hook default boolean"
+	},
+	"Create useState react hook default array": {
+		"scope": "javascriptreact,typescriptreact",
+		"prefix": "usa",
+		"body": [
+			"const [${TM_SELECTED_TEXT}, set${TM_SELECTED_TEXT/(.*)/${1:/pascalcase}/}] = useState(${1:[]})",
+		],
+		"description": "Create useState react hook default array"
+	},
 }
