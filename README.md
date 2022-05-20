@@ -4,11 +4,11 @@
 ### To use in your Visual Studio Code 
 1. First, copy the file "create react hooks.code-snippets"
 2. Go to Preferences > User Snippets and select New Global Snippet file
-3. Then past the file which you copied
+3. Then, past the file which you copied and save
 4. Right now, you can acess the snippet in your javascript/typescript files
 
 
-### To created a hook by Snippet 
+### To create a hook by Snippet 
 ##### Select the word which you would like to created a hook based it, then type
 * **uss** to create a useState started by a empty string
 * **usn** to create a useState started by a number "0"
