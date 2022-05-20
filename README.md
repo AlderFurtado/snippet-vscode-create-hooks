@@ -14,3 +14,5 @@
 * **usn** to create a useState started by a number "0"
 * **usb** to create a useState started by false value
 * **usa** to create a useState started by a empty array
+
+###### PS. There is demo video on "vscode snippet react hooks.mp4
